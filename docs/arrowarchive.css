@@ -198,8 +198,8 @@ div.flex-container {
 }
 img.thumbnail {
     margin: 10px;
-    height: 130px;
-    width: 130px;
+    /*  height: 130px;
+    width: 130px;*/
 }
 
 #welcome {
@@ -273,7 +273,7 @@ h1.welcome {
   background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0.5); /* Black see-through */
   color: #f1f1f1; 
-  width: 90px;
+  width: 160px;
   transition: .5s ease;
   opacity:0;
   border-radius: 2px;
