@@ -198,8 +198,8 @@ div.flex-container {
 }
 img.thumbnail {
     margin: 10px;
-    /*  height: 130px;
-    width: 130px;*/
+      height: 130px;
+    width: 130px;
 }
 
 #welcome {
