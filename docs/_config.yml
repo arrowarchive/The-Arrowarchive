@@ -1,0 +1,9 @@
+title: Rachel Gerzevske's (Arrowarchive's) Official Portfolio Website
+name: Rachel G.
+description: My digital art portfolio containing pieces from 2019 onwards with no signs of stopping
+timezone: America/New_York
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap

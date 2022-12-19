@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="arrowarchive.css"/>
+    {% feed_meta %}
+    {% seo %}
+  </head>
+  <body>
+    <div class="flex">
+    {% include sidebarMain.html %}
+    <div class="main">
+    {{ content }}
+      <h2>2022</h2>
+      <div class="flex-container">
+    {% include 2022.html %}
+      </div>
+      
+        <h2>2021</h2>
+      <div class="flex-container">
+    {% include 2021.html %}
+      </div>
+      
+      <h2>2020</h2>
+      <div class="flex-container">
+    {% include 2020.html %}
+      </div>
+      
+      <h2>2019</h2>
+      <div class="flex-container">
+    {% include 2019.html %}
+    </div>
+    </div>
+    </div>
+    {% include footer.html %}
+  </body>
+</html>
