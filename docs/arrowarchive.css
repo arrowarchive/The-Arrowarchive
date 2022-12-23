@@ -345,6 +345,14 @@ figure.mainImage > img{
     margin-bottom: 20px;
 } 
 
+.frontPage{
+    max-width:70%;
+    display: flex;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 figure.frontPage > img{
     object-fit:contain;
     width:100%;
@@ -352,10 +360,4 @@ figure.frontPage > img{
     flex-direction: row;
     border: 12px solid white;
     margin-bottom: 20px;
-    max-width:70%;
-    display: flex;
-    justify-content: space-around;
-    margin-left: auto;
-    margin-right: auto;
-    
-}
+} 
