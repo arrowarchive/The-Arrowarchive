@@ -100,12 +100,6 @@ display: flex;
     object-fit: contain;
 }
 
-  img.iconbox{
-width:36vw;
-/*      border: 12px solid white;
-    background-color: white; */
-    }
-
 img#pfp {
   margin-top: 20px;
     display: block;
@@ -202,11 +196,6 @@ div.flex-container {
     margin: 7%;
     text-align: left;
     flex-wrap: wrap;
-}
-img.thumbnail {
-    margin: 10px;
-      height: 130px;
-    width: 130px;
 }
 
 #welcome {
@@ -355,3 +344,18 @@ figure.mainImage > img{
     border: 12px solid white;
     margin-bottom: 20px;
 } 
+
+figure.frontPage > img{
+    object-fit:contain;
+    width:100%;
+    border-radius: 15px;
+    flex-direction: row;
+    border: 12px solid white;
+    margin-bottom: 20px;
+    max-width:70%;
+    display: flex;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
