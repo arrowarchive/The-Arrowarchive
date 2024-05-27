@@ -289,10 +289,10 @@ text-align: center;
           border-radius: 0px;
  }
  
-figure.mainImage { 
+   figure.mainImage {
     max-width:70%;
     display: flex;
-    justify-content: space-around;
+    /*  justify-content: space-around;*/
 } 
 
  .overlay {
@@ -333,7 +333,7 @@ position: relative;
 .mainImage {
     max-width:70%;
     display: flex;
-    justify-content: space-around;
+    /*  justify-content: space-around;*/
 }
 
 figure.mainImage > img{
