@@ -1,7 +1,8 @@
 body {
 font-family: arial, helvetica, sans-serif;
-background-image: url("images/assets/wallpaper.png");
-background-color: #b7e7ff;
+/*background-image: url("images/assets/wallpaper.png");*/
+ background-image: linear-gradient(to bottom, #2BD1C9 25%, #109F98 100%);
+background-color: #2BD1C9;
 color: black;
 }
 
@@ -111,8 +112,12 @@ img#pfp {
         max-width: 70%;
 }
 
+a {
+    color: #4800B2;
+}
+
 a:hover {
-  color: #d997ff;
+  color: #4D56FF;
   text-decoration: underline;
   }
 
@@ -161,7 +166,7 @@ button {
     margin-bottom:45px;
         margin-left: auto;
     margin-right: auto;
-    background-color: #D997FF;
+    background-color: #4800B2;
     color: white;
     outline:none;
     padding: 15px 32px;
@@ -175,13 +180,14 @@ button {
 
 button:active {
   background-color: white;
-  color: #D997FF;
+  color: #4800B2;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
 button:hover {
 background-color: white;
-color: #D997FF;
+transition: 0.3s;
+color: #4800B2;
 }
 .flex-container {
     display: flex;
